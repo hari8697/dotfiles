@@ -1,0 +1,38 @@
+modmap: []
+
+keymap:
+  - name: macOS Navigation
+    remap:
+      # ⌘ (Physical Alt -> Ctrl)
+      C-LEFT: HOME
+      C-RIGHT: END
+      C-UP: C-HOME
+      C-DOWN: C-END
+
+      # ⌥ (Physical Win -> Alt)
+      ALT-LEFT: C-LEFT
+      ALT-RIGHT: C-RIGHT
+
+      # Selection
+      C-SHIFT-LEFT: SHIFT-HOME
+      C-SHIFT-RIGHT: SHIFT-END
+      ALT-SHIFT-LEFT: C-SHIFT-LEFT
+      ALT-SHIFT-RIGHT: C-SHIFT-RIGHT
+
+      # Word deletion
+      ALT-BACKSPACE: C-BACKSPACE
+      ALT-DELETE: C-DELETE
+
+      # Window shortcuts
+      C-Q: ALT-F4
+      C-W: C-W
+
+      # Delete to beginning of line (⌘⌫)
+      C-BACKSPACE:
+        - SHIFT-HOME
+        - DELETE
+
+      # Delete to end of line (⌘Delete)
+      C-DELETE:
+        - SHIFT-END
+        - DELETE
