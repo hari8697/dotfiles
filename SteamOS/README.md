@@ -9,9 +9,9 @@ Features:
 - Ghostty
 - Fastfetch
 - macOS keyboard shortcuts (xremap)
-- OpenRGB
-- Ludusavi
-- Storage profiles
+- OpenRGB (OPTIONAL)
+- Ludusavi (OPTIONAL)
+- Storage Mounting (OPTIONAL)
 - Modular installer
 
 ## Installation
