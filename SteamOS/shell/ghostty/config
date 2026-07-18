@@ -9,8 +9,8 @@ font-feature = +liga
 font-feature = +calt
 
 # Window
-window-padding-x = 60
-window-padding-y = 60
+window-padding-x = 40
+window-padding-y = 40
 background-opacity = 0.89
 window-theme = auto
 app-notifications = false

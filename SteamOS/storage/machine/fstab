@@ -1,0 +1,24 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# SteamOS partitions
+#/dev/disk/by-partsets/self/rootfs /       ext4    defaults                0       1
+#/dev/disk/by-partsets/self/var    /var    ext4    defaults                0       2
+/dev/disk/by-partsets/self/efi    /efi    vfat    defaults,nofail,umask=0077,x-systemd.automount,x-systemd.idle-timeout=1min 0       2
+/dev/disk/by-partsets/shared/esp  /esp    vfat    defaults,nofail,umask=0077,x-systemd.automount,x-systemd.idle-timeout=1min 0       2
+/dev/disk/by-partsets/shared/home /home   ext4    defaults,nofail,x-systemd.growfs 0       2
+
+
+# 1TB USB HDD
+UUID=DC8C83718C83454C /mnt/HDD ntfs3 defaults,nofail,x-systemd.automount,uid=1000,gid=1000,rw 0 0
+
+# Samsung NVMe
+UUID=F408BDDC08BD9E54 /mnt/Samsung1TB ntfs3 defaults,nofail,uid=1000,gid=1000,rw 0 0
+
+# Cookie's SSD
+UUID=64DC77A5DC776FE2 /mnt/CookiesSSD ntfs3 defaults,nofail,uid=1000,gid=1000,rw 0 0
+
+# Local Disk
+UUID=DA54D4EE54D4CE7F /mnt/LocalDisk ntfs3 defaults,nofail,uid=1000,gid=1000,rw 0 0
+

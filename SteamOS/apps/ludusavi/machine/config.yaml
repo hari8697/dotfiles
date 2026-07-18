@@ -1,0 +1,125 @@
+---
+runtime:
+  threads: ~
+  networkSecurity: safe
+release:
+  check: true
+manifest:
+  enable: true
+language: en-US
+theme: dark
+roots:
+  - store: steam
+    path: /home/deck/.local/share/Steam
+  - store: lutris
+    path: /home/deck/.var/app/net.lutris.Lutris/data/lutris
+    database: ~
+redirects:
+  - kind: bidirectional
+    source: /home/deck/Games/AC Black Flag Resynced/saves/65043
+    target: /ac-black-flag-resynced/saves/
+backup:
+  path: /home/deck/game-save-backups
+  ignoredGames:
+    - Balatro
+    - "Baldur's Gate 3"
+    - "Batman: Arkham Asylum"
+    - Cyberpunk 2077
+    - "Danganronpa: Trigger Happy Havoc"
+    - Dead Cells
+    - Elden Ring
+    - Enter the Gungeon
+    - Gris
+    - Hades II
+    - Hollow Knight
+    - "Hollow Knight: Silksong"
+    - "NieR: Automata"
+    - Schedule I
+    - Stardew Valley
+    - "The Binding of Isaac: Rebirth"
+    - "The Witcher 3: Wild Hunt"
+    - Tomb Raider (2013)
+  filter:
+    excludeStoreScreenshots: false
+    cloud:
+      exclude: false
+      epic: false
+      gog: false
+      origin: false
+      steam: false
+      uplay: false
+    ignoredPaths: []
+    ignoredRegistry: []
+  toggledPaths: {}
+  toggledRegistry: {}
+  sort:
+    key: status
+    reversed: false
+  retention:
+    full: 1
+    differential: 0
+  format:
+    chosen: simple
+    zip:
+      compression: deflate
+    compression:
+      deflate:
+        level: 6
+      bzip2:
+        level: 6
+      zstd:
+        level: 10
+  onlyConstructive: false
+restore:
+  path: /home/deck/game-save-backups
+  ignoredGames:
+    - "Assassin's Creed IV: Black Flag"
+    - "Black Myth: Wukong"
+    - Cast n Chill
+    - "Clair Obscur: Expedition 33"
+    - Crimson Desert
+    - Dave the Diver
+    - "Doom: The Dark Ages"
+    - Hades II
+    - PPSSPP
+    - Pragmata
+    - "Ratchet & Clank: Rift Apart"
+    - Resident Evil Requiem
+    - Schedule I
+    - Sea of Stars
+    - "Sekiro: Shadows Die Twice"
+    - Split Fiction
+    - Stardew Valley
+    - Stellar Blade
+    - Terraria
+    - The Genesis Order
+    - Treasure of Nadia
+    - Yuzu
+  toggledPaths: {}
+  toggledRegistry: {}
+  sort:
+    key: status
+    reversed: false
+  reverseRedirects: true
+scan:
+  showDeselectedGames: true
+  showUnchangedGames: true
+  showUnscannedGames: true
+cloud:
+  remote: ~
+  path: ludusavi-backup
+  synchronize: true
+apps:
+  rclone:
+    path: /app/bin/rclone
+    arguments: "--fast-list --ignore-checksum"
+customGames:
+  - name: "Assassin's Creed: Black Flag Resynced"
+    integration: override
+    files:
+      - "/home/deck/Games/AC Black Flag Resynced/saves/65043/ACBlackFlag[AutoSave*.save"
+      - "/home/deck/Games/AC Black Flag Resynced/saves/65043/ACBlackFlag[ManualSave*.save"
+    registry: []
+    installDir:
+      - "Assassin's Creed: Black Flag Resynced"
+    winePrefix: []

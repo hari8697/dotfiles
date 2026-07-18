@@ -1,0 +1,478 @@
+========== PACMAN ==========
+7zip 25.01-1.1
+alsa-card-profiles 1:1.6.4-1.6
+amd-ucode-neptune jupiter.20260604.1-1
+arch-install-scripts 29-1
+ark 25.04.3-1
+base 3-2
+bash-completion 2.16.0-1
+bat 0.25.0-4
+bats 1.12.0-1
+bluez 5.83-1.2
+bluez-utils 5.83-1.2
+breeze-grub 6.4.3-1
+btop 1.4.4-1
+btrfs-progs 6.15-1
+caps 0.9.26-3
+casync 2.r227.g99559cd-4.5
+cec-audio-control 0.1.0-6
+cecd 0.2.1-2
+cpupower 6.15-3
+cups 2:2.4.14-1.1
+cups-pdf 3.0.2-1
+desync 1.0.0-1.2
+dirlock 0.0.1.214.177064e-3.1
+distrobox 1.8.1.2-1
+dmemcg-booster 0.1.1-2
+dolphin 25.04.3-1
+dos2unix 7.5.2-2
+dosfstools 4.2-5
+drm_info 2.8.0-1
+drm_janitor 0.0.4-5
+efibootmgr 18-3
+espeak-ng 1.52.0-1
+evtest 1.35-2
+exfatprogs 1.2.9-1
+eza 0.23.0-1
+f3 9.0-1.1
+fastfetch 2.48.1-1
+fatresize 1.1.0-2
+fd 10.2.0-1
+ffmpegthumbs 25.04.3-1
+filelight 25.04.3-1
+fish 4.0.2-1
+flatpak 1:1.16.6-1.1
+flatpak-kcm 6.4.3-1
+fremont-hw-support 20260506.1-1
+fuse-overlayfs 1.15-1
+fwupd-efi 1.7-1
+fwupd-minimal 2.0.18-1
+fzf 0.65.0-1
+galileo-mura v0.10-1
+gamemode 1.8.2-1
+gamescope 3.16.23.2-1
+ghostty 1.1.3-1
+gocryptfs 2.6.0-1
+gpu-trace 2.14-1.3
+grub 2:2.13-3.2
+gst-plugin-pipewire 1:1.6.4-1.6
+gwenview 25.04.3-1
+holo-desync 3.8.20260619.1-1
+holo-dmi-rules 1.1-1
+holo-earlyoom 1.1-1
+holo-fstab-repair 0.1-1
+holo-glibc-locales 2.41+r65+ge7c419a29575-1
+holo-keyring 20250801-1
+holo-nfs-utils-tmpfiles 0.1-1
+holo-nix-offload 0.2-1
+holo-plymouth-themes 0.6-1
+holo-sudo 3.8.20260619.1-1
+holo-zram-swap 0.3-0
+htop 3.4.1-1
+ibus 1.5.32-2.2
+ibus-anthy 1.5.14-4.4
+ibus-hangul 1.5.5-3
+ibus-pinyin 1.5.1-2.3
+ibus-table 1.17.4-3
+ibus-table-cangjie-lite 1.8.8-2.4
+inputattach-cec-units 2-1
+inputplumber 0.77.4-1
+iotop 0.6-12
+iw 6.9-1
+iwd 3.9-1.1
+jupiter-dock-updater-bin 20260602.01-1
+jupiter-fan-control 20260422.2-1
+jupiter-firewall 0.1-1
+jupiter-hw-support 3.8.20260630.1-1
+jupiter-legacy-support 1.156.4-1
+jupiter-steamos-log-submitter 1-1
+kate 25.04.3-1
+kcgroups 0.0.dmemcg.experimental.3-1
+kdeconnect 25.04.3-1.1
+kitty-terminfo 0.42.2-1
+konsole 25.04.3-1
+kwin-x11 6.4.3-1.2
+less 1:679-1
+lib32-gamemode 1.8.2-1
+lib32-gamescope 3.16.15-1.1
+lib32-libnm 1.52.1-1
+lib32-libpulse 17.0+r43+g3e2bb8a1e-1
+lib32-libva 2.22.0-1
+lib32-libvdpau 1.5-3
+lib32-mangohud 0.8.3.rc1.r24.g33c2c7dd-3
+lib32-openal 1.24.3-1
+lib32-renderdoc-minimal 1.27.r3.g0f851df-3
+lib32-spirv-llvm-translator 20.1.4-1
+lib32-vulkan-intel 25.3.0.213835.radeonsi_25.3.0-4.1
+lib32-vulkan-radeon 26.0.0_devel.214836.steamos_25.11.14-1
+lib32-vulkan-virtio 25.3.0.213835.radeonsi_25.3.0-4.1
+libpipewire 1:1.6.4-1.6
+libva-intel-driver 2.4.1-5
+libwireplumber 0.5.14-1.4
+linux-firmware-neptune jupiter.20260604.1-1
+linux-neptune-616 6.16.12.valve24.4-1
+maliit-keyboard 2.3.1-4.2
+mandoc 1.14.6-5
+mangohud 0.8.3.rc1.r24.g33c2c7dd-3
+mesa-utils 9.0.0-7
+mkinitcpio 39.2-3
+nano 8.5-1
+ncdu 2.8.2-3
+nethogs 0.8.8-2
+networkmanager-openvpn 1.12.0-1
+nfs-utils 2.8.3-2
+noisetorch 0.12.2.r47.g6d895f3-2
+noto-fonts 1:2025.07.01-1
+noto-fonts-cjk 20240730-1
+nss-mdns 0.15.1-2
+ntfs-3g 2022.10.3-2
+okular 25.04.3-1
+openssh 10.0p1-4
+openvpn 2.6.14-1
+orca 48.9-1.0
+partitionmanager 25.04.3-1
+paru 2.1.0-1.2
+pavucontrol 1:6.1-1
+pipewire 1:1.6.4-1.6
+pipewire-alsa 1:1.6.4-1.6
+pipewire-audio 1:1.6.4-1.6
+pipewire-jack 1:1.6.4-1.6
+pipewire-pulse 1:1.6.4-1.6
+pipewire-v4l2 1:1.6.4-1.6
+pipewire-x11-bell 1:1.6.4-1.6
+plasma-foreground-booster 0.0.dmemcg.experimental.3-1
+plasma-meta 6.4-4
+plasma-wayland-protocols 1.18.0-1
+plasma-x11-session 6.4.3-1.4
+plymouth 22.02.122-7.3
+podman 5.5.2-1.1
+powertop 2.15-2
+qt5-tools 5.15.17+kde+r3-2
+renderdoc-minimal 1.43-1.0
+ripgrep 14.1.1-1
+rtkit 0.14-1
+rxvt-unicode-terminfo 9.31-8
+scx-scheds 1.1.1.linux.steamos-1
+sddm 0.21.0-6
+sof-firmware 2025.05-1
+spectacle 1:6.4.3-1
+spirv-llvm-translator 20.1.4-1
+squashfs-tools 4.7-1
+sshfs 3.7.3-3
+starship 1.23.0-1
+steam-im-modules jupiter.20240131-3
+steam-jupiter-stable 1.0.0.85-9
+steam_notif_daemon v1.0.1-3
+steamdeck-kde-presets 3.8.6-1
+steamos-customizations-jupiter 3.8.20260619.1-1
+steamos-devkit-service 0.20250916.0-1
+steamos-efi 20251023.1-1
+steamos-kdumpst-layer 1.0-4
+steamos-manager 26.2.1-1
+steamos-networking-tools 1.2-1
+steamos-passwd 1.0-1
+steamos-powerbuttond 4.2-1
+steamos-reset 20241008.1-3
+steamos-systemreport 0.19-1
+steamos-tweak-mtu-probing 1-1
+strace 6.15-1
+sudo 1.9.17.p1-1
+tk 8.6.16-1
+tmux 3.5_a-1
+tree 2.2.1-1
+ttf-dejavu 2.37+18+g9b5d1b2f-7
+ttf-twemoji-default 13.1.0-2.4
+udisks2-btrfs 2.10.1-6.1
+udisks2-lvm2 2.10.1-6.1
+umr 1.0.10-1.4
+unrar 1:7.1.10-1
+unzip 6.0-23
+usb_modeswitch 2.6.2-1
+usbhid-gadget-passthru 0.1.3-5
+vim 9.1.1552-1
+vkmark 1:2025.01-2
+vpower 1.5.7-2.1
+vulkan-intel 25.3.0.213835.radeonsi_25.3.0-4.1
+vulkan-radeon 26.0.0_devel.214836.steamos_25.11.14-1
+vulkan-virtio 25.3.0.213835.radeonsi_25.3.0-4.1
+webrtc-audio-processing-1 1.3-5
+wget 1.25.0-2
+which 2.23-1
+wireguard-tools 1.0.20250521-1
+wireless-regdb 2025.07.10-1
+wireless_tools 30.pre9-4
+wireplumber 0.5.14-1.4
+xbindkeys 1.8.7-5
+xdg-desktop-portal-gamescope 0.1.33.412a4bf-2
+xdg-desktop-portal-gtk 1.15.3-1.1
+xdg-desktop-portal-holo 0.1.18.5ad92bf-1
+xdg-desktop-portal-kde 6.4.3-2
+xdotool 3.20211022.1-2
+xf86-video-amdgpu 23.0.0-2
+xorg-xdpyinfo 1.3.4-2
+xorg-xhost 1.0.10-1
+xorg-xrandr 1.5.3-1
+xorg-xwayland 24.1.10-1.2
+xorg-xwininfo 1.1.6-2
+xterm 401-1
+zenity-gtk3 3.44.2-4
+zip 3.0-11
+zoxide 0.9.8-2
+zsh 5.9-5
+
+========== FLATPAKS ==========
+Ludusavi	com.github.mtkennerly.ludusavi	0.31.0	stable	system
+SyncThingy	com.github.zocker_160.SyncThingy	0.8.3	stable	system
+Stremio Service	com.stremio.Service	0.1.21	stable	system
+Stremio	com.stremio.Stremio	1.0.3	stable	system
+Visual Studio Code	com.visualstudio.code	1.129.0	stable	system
+ProtonPlus	com.vysp3r.ProtonPlus	0.5.21	stable	system
+Vesktop	dev.vencord.Vesktop	1.6.5	stable	system
+mpv	io.mpv.Mpv	v0.41.0	stable	system
+ProtonUp-Qt	net.davidotek.pupgui2	2.15.1	stable	system
+Lutris	net.lutris.Lutris	0.5.22	stable	system
+KFind	org.kde.kfind	26.04.3	stable	system
+Firefox	org.mozilla.firefox	152.0.6	stable	system
+OpenRGB	org.openrgb.OpenRGB	1.0rc3	stable	system
+qBittorrent	org.qbittorrent.qBittorrent	5.2.3	stable	system
+VLC	org.videolan.VLC	3.0.23	stable	system
+VacuumTube	rocks.shy.VacuumTube	1.8.1	stable	system
+
+========== USER SERVICES ==========
+UNIT FILE                    STATE   PRESET
+dmemcg-booster-user.service  enabled enabled
+filter-chain.service         enabled enabled
+gamemoded.service            enabled enabled
+syncthingy.service           enabled enabled
+wireplumber.service          enabled enabled
+xdg-user-dirs-update.service enabled enabled
+xremap.service               enabled enabled
+p11-kit-server.socket        enabled enabled
+pipewire-pulse.socket        enabled enabled
+pipewire.socket              enabled enabled
+
+10 unit files listed.
+
+========== SYSTEM SERVICES ==========
+UNIT FILE                          STATE   PRESET
+avahi-daemon.service               enabled disabled
+bluetooth.service                  enabled disabled
+dmemcg-booster-system.service      enabled disabled
+firewalld.service                  enabled disabled
+getty@.service                     enabled enabled
+gpu-trace.service                  enabled disabled
+kdumpst-init.service               enabled disabled
+NetworkManager-dispatcher.service  enabled disabled
+NetworkManager-wait-online.service enabled disabled
+NetworkManager.service             enabled disabled
+plugin_loader.service              enabled disabled
+sddm.service                       enabled disabled
+steamos-kdumpst-layer.service      enabled disabled
+steamos-manager.service            enabled disabled
+systemd-timesyncd.service          enabled enabled
+avahi-daemon.socket                enabled disabled
+cups.socket                        enabled disabled
+steam-web-debug-portforward.socket enabled disabled
+systemd-userdbd.socket             enabled enabled
+remote-fs.target                   enabled enabled
+
+20 unit files listed.
+
+========== SHELL ==========
+/usr/bin/zsh
+
+========== ZSHRC ==========
+# ===========================
+# Antidote
+# ===========================
+
+source ~/.antidote/antidote.zsh
+
+antidote load ~/.config/zsh/.zsh_plugins.txt
+
+# ===========================
+# History
+# ===========================
+
+HISTFILE=~/.zsh_history
+HISTSIZE=100000
+SAVEHIST=100000
+
+setopt APPEND_HISTORY
+setopt SHARE_HISTORY
+setopt HIST_IGNORE_DUPS
+setopt HIST_IGNORE_SPACE
+setopt HIST_FIND_NO_DUPS
+setopt INC_APPEND_HISTORY
+
+# ===========================
+# Better Completion
+# ===========================
+
+autoload -Uz compinit
+compinit
+
+zstyle ':completion:*' menu select
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+
+# ===========================
+# Aliases
+# ===========================
+
+alias cls='clear'
+
+# Better ls
+alias ls='eza --icons'
+alias ll='eza -lah --icons --git'
+alias la='eza -a --icons'
+alias tree='eza --tree --icons'
+
+# zoxide
+eval "$(zoxide init zsh)"
+
+# fzf
+source <(fzf --zsh)
+
+# Fastfetch
+if [[ -o interactive ]] && command -v fastfetch >/dev/null; then
+    fastfetch
+fi
+
+export PATH="$HOME/.local/bin:$PATH"
+
+# Starship
+eval "$(starship init zsh)"
+
+========== GHOSTTY ==========
+# Appearance
+theme = Aura
+# theme =  / Aura / BlueBerryPie / Argonaut
+
+# Font
+font-family = Fira Code
+font-size = 11
+font-feature = +liga
+font-feature = +calt
+
+# Window
+window-padding-x = 60
+window-padding-y = 60
+background-opacity = 0.89
+window-theme = auto
+app-notifications = false
+
+# Cursor
+cursor-style = block
+cursor-style-blink = true
+
+# Scrollback
+scrollback-limit = 10000000
+
+# Shell
+shell-integration = detect
+
+# Clipboard
+clipboard-read = allow
+clipboard-write = allow
+
+# Selection
+copy-on-select = clipboard
+
+# Mouse
+mouse-hide-while-typing = true
+
+# Misc
+confirm-close-surface = false
+
+# Keybinds
+keybind = ctrl+c=copy_to_clipboard
+keybind = ctrl+v=paste_from_clipboard
+keybind = super+c=text:\x03
+keybind = ctrl+shift+c=text:\x03
+
+# Tabs
+keybind = ctrl+t=new_tab
+keybind = ctrl+w=close_surface
+keybind = alt+tab=next_tab
+keybind = ctrl+shift+tab=previous_tab
+
+shell-integration = detect
+working-directory = inherit
+window-inherit-working-directory = true
+
+# ---------------------------------------------------------------------------------
+
+# This is the configuration file for Ghostty.
+#
+# This template file has been automatically created at the following
+# path since Ghostty couldn't find any existing config files on your system:
+#
+#   /home/deck/.config/ghostty/config
+#
+# The template does not set any default options, since Ghostty ships
+# with sensible defaults for all options. Users should only need to set
+# options that they want to change from the default.
+#
+# Run `ghostty +show-config --default --docs` to view a list of
+# all available config options and their default values.
+#
+# Additionally, each config option is also explained in detail
+# on Ghostty's website, at https://ghostty.org/docs/config.
+
+# Config syntax crash course
+# ==========================
+# # The config file consists of simple key-value pairs,
+# # separated by equals signs.
+# font-family = Iosevka
+# window-padding-x = 2
+#
+# # Spacing around the equals sign does not matter.
+# # All of these are identical:
+# key=value
+# key= value
+# key =value
+# key = value
+#
+# # Any line beginning with a # is a comment. It's not possible to put
+# # a comment after a config option, since it would be interpreted as a
+# # part of the value. For example, this will have a value of "#123abc":
+# background = #123abc
+#
+# # Empty values are used to reset config keys to default.
+# key =
+#
+# # Some config options have unique syntaxes for their value,
+# # which is explained in the docs for that config option.
+# # Just for example:
+# resize-overlay-duration = 4s 200ms
+#
+
+========== FASTFETCH ==========
+
+========== FSTAB ==========
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# SteamOS partitions
+#/dev/disk/by-partsets/self/rootfs /       ext4    defaults                0       1
+#/dev/disk/by-partsets/self/var    /var    ext4    defaults                0       2
+/dev/disk/by-partsets/self/efi    /efi    vfat    defaults,nofail,umask=0077,x-systemd.automount,x-systemd.idle-timeout=1min 0       2
+/dev/disk/by-partsets/shared/esp  /esp    vfat    defaults,nofail,umask=0077,x-systemd.automount,x-systemd.idle-timeout=1min 0       2
+/dev/disk/by-partsets/shared/home /home   ext4    defaults,nofail,x-systemd.growfs 0       2
+
+
+# 1TB USB HDD
+UUID=DC8C83718C83454C /mnt/HDD ntfs3 defaults,nofail,x-systemd.automount,uid=1000,gid=1000,rw 0 0
+
+# Samsung NVMe
+UUID=F408BDDC08BD9E54 /mnt/Samsung1TB ntfs3 defaults,nofail,uid=1000,gid=1000,rw 0 0
+
+# Cookie's SSD
+UUID=64DC77A5DC776FE2 /mnt/CookiesSSD ntfs3 defaults,nofail,uid=1000,gid=1000,rw 0 0
+
+# Local Disk
+UUID=DA54D4EE54D4CE7F /mnt/LocalDisk ntfs3 defaults,nofail,uid=1000,gid=1000,rw 0 0
+
+
+========== UDEV ==========

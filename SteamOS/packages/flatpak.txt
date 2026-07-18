@@ -1,0 +1,14 @@
+com.github.mtkennerly.ludusavi
+com.github.zocker_160.SyncThingy
+com.stremio.Service
+com.stremio.Stremio
+com.vysp3r.ProtonPlus
+dev.vencord.Vesktop
+io.mpv.Mpv
+net.davidotek.pupgui2
+net.lutris.Lutris
+org.mozilla.firefox
+org.openrgb.OpenRGB
+org.qbittorrent.qBittorrent
+org.videolan.VLC
+rocks.shy.VacuumTube
