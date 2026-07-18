@@ -4,12 +4,42 @@ set -euo pipefail
 
 export DOTFILES="$(cd "$(dirname "$0")" && pwd)"
 
-INSTALL_STORAGE=false
 INSTALL_OPENRGB=false
 LUDUSAVI_PROFILE=""
+STORAGE_PROFILE=""
 
 while [[ $# -gt 0 ]]; do
     case "$1" in
+        --help|-h)
+            cat <<EOF
+SteamOS Dotfiles Installer
+
+Usage:
+  ./install.sh [options]
+
+Required modules:
+  packages
+  zsh
+  ghostty
+  fastfetch
+  macOS keyboard shortcuts
+
+Optional modules:
+  --openrgb
+      Install OpenRGB configuration
+
+  --ludusavi <profile>
+      Install a Ludusavi profile
+
+  --storage <profile>
+      Install a storage profile
+
+  -h, --help
+      Show this help message
+EOF
+            exit 0
+            ;;
+
         --openrgb)
             INSTALL_OPENRGB=true
             ;;
@@ -26,6 +56,8 @@ while [[ $# -gt 0 ]]; do
 
         *)
             echo "Unknown option: $1"
+            echo
+            echo "Run './install.sh --help' for usage."
             exit 1
             ;;
     esac
@@ -33,21 +65,26 @@ while [[ $# -gt 0 ]]; do
     shift
 done
 
-"$DOTFILES/packages/install.sh"
-"$DOTFILES/shell/zsh/install.sh"
-"$DOTFILES/shell/ghostty/install.sh"
-"$DOTFILES/cli/fastfetch/install.sh"
-"$DOTFILES/macos-kbd-shortcuts/install.sh"
+for module in \
+    packages \
+    shell/zsh \
+    shell/ghostty \
+    cli/fastfetch \
+    macos-kbd-shortcuts
+do
+    bash "$DOTFILES/$module/install.sh"
+done
 
 # Optional modules
-$INSTALL_STORAGE && "$DOTFILES/storage/install.sh"
-$INSTALL_OPENRGB && "$DOTFILES/apps/openrgb/install.sh"
+$INSTALL_OPENRGB && bash "$DOTFILES/apps/openrgb/install.sh"
+
 if [[ -n "$LUDUSAVI_PROFILE" ]]; then
     LUDUSAVI_PROFILE="$LUDUSAVI_PROFILE" \
-        "$DOTFILES/apps/ludusavi/install.sh"
+        bash "$DOTFILES/apps/ludusavi/install.sh"
 fi
+
 if [[ -n "$STORAGE_PROFILE" ]]; then
-    "$DOTFILES/storage/install.sh" "$STORAGE_PROFILE"
+    bash "$DOTFILES/storage/install.sh" "$STORAGE_PROFILE"
 fi
 
 echo
