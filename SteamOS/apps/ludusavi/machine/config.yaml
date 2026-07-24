@@ -18,6 +18,9 @@ redirects:
   - kind: bidirectional
     source: /home/deck/Games/AC Black Flag Resynced/saves/65043
     target: /ac-black-flag-resynced/saves/
+  - kind: bidirectional
+    source: /home/deck/.local/share/Steam/steamapps/compatdata/2827547241/pfx/drive_c/users/steamuser/AppData/Local/SB/Saved/SaveGames
+    target: /stellar-blade
 backup:
   path: /home/deck/game-save-backups
   ignoredGames:
@@ -29,11 +32,14 @@ backup:
     - Dead Cells
     - Elden Ring
     - Enter the Gungeon
+    - Grand Theft Auto IV
     - Gris
     - Hades II
     - Hollow Knight
     - "Hollow Knight: Silksong"
     - "NieR: Automata"
+    - Persona 5 Royal
+    - Red Dead Redemption 2
     - Schedule I
     - Stardew Valley
     - "The Binding of Isaac: Rebirth"
@@ -73,26 +79,35 @@ backup:
 restore:
   path: /home/deck/game-save-backups
   ignoredGames:
-    - "Assassin's Creed IV: Black Flag"
+    - "Assassin's Creed: Black Flag Resynced"
     - "Black Myth: Wukong"
     - Cast n Chill
     - "Clair Obscur: Expedition 33"
     - Crimson Desert
     - Dave the Diver
     - "Doom: The Dark Ages"
+    - Final Fantasy VII Remake Intergrade
+    - Grand Theft Auto IV
+    - Grand Theft Auto V Enhanced
     - Hades II
+    - Hollow Knight
+    - "Hollow Knight: Silksong"
+    - "NieR: Automata"
     - PPSSPP
+    - Persona 5 Royal
     - Pragmata
     - "Ratchet & Clank: Rift Apart"
+    - Red Dead Redemption 2
+    - Resident Evil 2
     - Resident Evil Requiem
     - Schedule I
     - Sea of Stars
     - "Sekiro: Shadows Die Twice"
     - Split Fiction
     - Stardew Valley
-    - Stellar Blade
     - Terraria
     - The Genesis Order
+    - "The Witcher 3: Wild Hunt"
     - Treasure of Nadia
     - Yuzu
   toggledPaths: {}
@@ -117,9 +132,17 @@ customGames:
   - name: "Assassin's Creed: Black Flag Resynced"
     integration: override
     files:
-      - "/home/deck/Games/AC Black Flag Resynced/saves/65043/ACBlackFlag[AutoSave*.save"
-      - "/home/deck/Games/AC Black Flag Resynced/saves/65043/ACBlackFlag[ManualSave*.save"
+      - "/home/deck/Games/AC Black Flag Resynced/saves/65043/ACBlackFlag[[]AutoSave*.save"
+      - "/home/deck/Games/AC Black Flag Resynced/saves/65043/ACBlackFlag[[]ManualSave*.save"
     registry: []
     installDir:
       - "Assassin's Creed: Black Flag Resynced"
+    winePrefix: []
+  - name: Stellar Blade
+    integration: override
+    files:
+      - /home/deck/.local/share/Steam/steamapps/compatdata/2827547241/pfx/drive_c/users/steamuser/AppData/Local/SB/Saved/SaveGames/
+    registry: []
+    installDir:
+      - StellarBlade
     winePrefix: []

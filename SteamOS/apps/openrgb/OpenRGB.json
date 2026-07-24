@@ -5,7 +5,7 @@
         "enabled": true,
         "host": "0.0.0.0",
         "port": "6742",
-        "profile": "All OFF",
+        "profile": "all-off.orp",
         "setclient": false,
         "setcustom": false,
         "setminimized": true,
@@ -1995,37 +1995,31 @@
             "Z370 AORUS Ultra Gaming-CF"
         ]
     },
-    "LogManager": {
-        "dialog_no_show_hashes": [
-            11011923073826078851
-        ]
-    },
     "UserInterface": {
         "autoload_profiles": {
             "exit_profile": {
                 "enabled": true,
-                "name": "Hari"
+                "name": "all-off.orp"
             },
             "resume_profile": {
                 "enabled": true,
-                "name": "Hari"
+                "name": "all-off.orp"
             },
             "suspend_profile": {
                 "enabled": true,
-                "name": "Hari"
+                "name": "all-off.orp"
             }
         },
         "geometry": {
-            "height": 650,
-            "load_geometry": true,
-            "save_on_exit": true,
-            "width": 990,
-            "x": 2560,
+            "height": 0,
+            "load_geometry": false,
+            "save_on_exit": false,
+            "width": 0,
+            "x": 0,
             "y": 0
         },
         "greyscale_tray_icon": true,
         "language": "System Default",
-        "minimize_on_close": false,
-        "run_zone_checks": true
+        "minimize_on_close": false
     }
 }
