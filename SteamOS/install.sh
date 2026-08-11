@@ -67,6 +67,7 @@ done
 
 for module in \
     packages \
+    bluetooth \
     shell/zsh \
     shell/ghostty \
     cli/fastfetch \

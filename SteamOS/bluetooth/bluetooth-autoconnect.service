@@ -1,0 +1,13 @@
+[Unit]
+Description=Auto-connect Bluetooth devices
+After=graphical-session.target
+Wants=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=%h/dev/dotfiles/SteamOS/bluetooth/autoconnect.sh
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=default.target
