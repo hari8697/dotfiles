@@ -21,6 +21,9 @@ redirects:
   - kind: bidirectional
     source: /home/deck/.local/share/Steam/steamapps/compatdata/2827547241/pfx/drive_c/users/steamuser/AppData/Local/SB/Saved/SaveGames
     target: /stellar-blade
+  - kind: bidirectional
+    source: "/var/mnt/Samsung1TB/Games [A]/Crimson Desert/game/prefix/pfx/drive_c/users/steamuser/AppData/Local/Pearl Abyss/CD/save/22202"
+    target: /crimson-desert
 backup:
   path: /home/deck/game-save-backups
   ignoredGames:
@@ -45,6 +48,7 @@ backup:
     - "The Binding of Isaac: Rebirth"
     - "The Witcher 3: Wild Hunt"
     - Tomb Raider (2013)
+    - Vampire Survivors
   filter:
     excludeStoreScreenshots: false
     cloud:
@@ -145,4 +149,11 @@ customGames:
     registry: []
     installDir:
       - StellarBlade
+    winePrefix: []
+  - name: Crimson Desert
+    integration: override
+    files:
+      - "/var/mnt/Samsung1TB/Games [A]/Crimson Desert/game/prefix/pfx/drive_c/users/steamuser/AppData/Local/Pearl Abyss/CD/save/22202/**/*.save"
+    registry: []
+    installDir: []
     winePrefix: []

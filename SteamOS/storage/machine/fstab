@@ -22,3 +22,5 @@ UUID=64DC77A5DC776FE2 /mnt/CookiesSSD ntfs3 defaults,nofail,uid=1000,gid=1000,rw
 # Local Disk
 UUID=DA54D4EE54D4CE7F /mnt/LocalDisk ntfs3 defaults,nofail,uid=1000,gid=1000,rw 0 0
 
+# C Drive
+UUID=546CFA606CFA3C74 /mnt/C\040Drive ntfs3 defaults,nofail,uid=1000,gid=1000,rw 0 0

@@ -1,8 +1,8 @@
 #!/bin/bash
 
 DEVICES=(
-    "88:C9:E8:4B:67:33"
-    "F0:D3:1F:62:1A:D7"
+    "88:C9:E8:4B:67:33" # WH-100XM4
+    "F0:D3:1F:62:1A:D7" # Airpods Pro
 )
 
 bluetoothctl power on >/dev/null 2>&1
