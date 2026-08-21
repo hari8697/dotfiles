@@ -19,8 +19,9 @@ echo "  6) macOS Keyboard Shortcuts"
 echo "  7) OpenRGB"
 echo "  8) Ludusavi"
 echo "  9) Storage"
-echo " 10) Install All"
-echo " 11) Exit"
+echo " 10) Bootloader"
+echo " 11) Install All"
+echo " 12) Exit"
 echo
 
 read -rp "Enter selection(s) [e.g. 1 3 5]: " -a SELECTIONS
@@ -42,6 +43,7 @@ INSTALL_MACOS_KBD=false
 INSTALL_OPENRGB=false
 INSTALL_LUDUSAVI=false
 INSTALL_STORAGE=false
+INSTALL_BOOTLOADER=false
 
 for selection in "${SELECTIONS[@]}"; do
     case "$selection" in
@@ -54,8 +56,9 @@ for selection in "${SELECTIONS[@]}"; do
         7) INSTALL_OPENRGB=true ;;
         8) INSTALL_LUDUSAVI=true ;;
         9) INSTALL_STORAGE=true ;;
-        10) INSTALL_ALL=true ;;
-        11)
+        10) INSTALL_BOOTLOADER=true ;;
+        11) INSTALL_ALL=true ;;
+        12)
             echo "Exiting."
             exit 0
             ;;
@@ -78,6 +81,7 @@ if [[ "$INSTALL_ALL" == true ]]; then
     INSTALL_OPENRGB=true
     INSTALL_LUDUSAVI=true
     INSTALL_STORAGE=true
+    INSTALL_BOOTLOADER=true
 fi
 
 # Ask for required profiles
@@ -149,6 +153,9 @@ if [[ "$INSTALL_STORAGE" == true ]]; then
 
     bash "$DOTFILES/storage/install.sh" "$STORAGE_PROFILE"
 fi
+
+[[ "$INSTALL_BOOTLOADER" == true ]] &&
+    run_module "bootloader"
 
 echo
 echo "Done!"

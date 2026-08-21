@@ -24,7 +24,7 @@ keymap:
       ALT-DELETE: C-DELETE
 
       # Window shortcuts
-      C-Q: ALT-F4
+      # C-Q: ALT-F4
       C-W: C-W
 
       # Delete to beginning of line (⌘⌫)

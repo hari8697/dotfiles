@@ -16,8 +16,8 @@ roots:
     database: ~
 redirects:
   - kind: bidirectional
-    source: /home/deck/Games/AC Black Flag Resynced/saves/65043
-    target: /ac-black-flag-resynced/saves/
+    source: /home/deck/.local/share/Steam/steamapps/compatdata/3359882117/pfx/drive_c/users/steamuser/AppData/Roaming/Goldberg UplayEmu Saves/66088/
+    target: /ac-black-flag-resynced
   - kind: bidirectional
     source: /home/deck/.local/share/Steam/steamapps/compatdata/2827547241/pfx/drive_c/users/steamuser/AppData/Local/SB/Saved/SaveGames
     target: /stellar-blade
@@ -33,6 +33,7 @@ backup:
     - Cyberpunk 2077
     - "Danganronpa: Trigger Happy Havoc"
     - Dead Cells
+    - Dota 2
     - Elden Ring
     - Enter the Gungeon
     - Grand Theft Auto IV
@@ -136,8 +137,8 @@ customGames:
   - name: "Assassin's Creed: Black Flag Resynced"
     integration: override
     files:
-      - "/home/deck/Games/AC Black Flag Resynced/saves/65043/ACBlackFlag[[]AutoSave*.save"
-      - "/home/deck/Games/AC Black Flag Resynced/saves/65043/ACBlackFlag[[]ManualSave*.save"
+      - "/home/deck/.local/share/Steam/steamapps/compatdata/3359882117/pfx/drive_c/users/steamuser/AppData/Roaming/Goldberg UplayEmu Saves/66088/**/ACBlackFlag[[]AutoSave*.save"
+      - "/home/deck/.local/share/Steam/steamapps/compatdata/3359882117/pfx/drive_c/users/steamuser/AppData/Roaming/Goldberg UplayEmu Saves/66088/**/ACBlackFlag[[]ManualSave*.save"
     registry: []
     installDir:
       - "Assassin's Creed: Black Flag Resynced"
