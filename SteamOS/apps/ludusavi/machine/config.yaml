@@ -24,31 +24,53 @@ redirects:
   - kind: bidirectional
     source: "/var/mnt/Samsung1TB/Games [A]/Crimson Desert/game/prefix/pfx/drive_c/users/steamuser/AppData/Local/Pearl Abyss/CD/save/22202"
     target: /crimson-desert
+  - kind: bidirectional
+    source: /home/deck/.local/share/Steam/steamapps/compatdata/4273801687/pfx/drive_c/users/steamuser/AppData/Roaming/GSE Saves/3764200/remote/win64_save
+    target: /re-requiem
+  - kind: bidirectional
+    source: "/var/mnt/CookiesSSD/Games [G]/Black Myth - Wukong/b1/Saved/SaveGames/76561197960285355/"
+    target: /black-myth-wukong
 backup:
   path: /home/deck/game-save-backups
   ignoredGames:
     - Balatro
     - "Baldur's Gate 3"
     - "Batman: Arkham Asylum"
+    - Brotato
+    - Crypt of the NecroDancer
     - Cyberpunk 2077
     - "Danganronpa: Trigger Happy Havoc"
     - Dead Cells
     - Dota 2
-    - Elden Ring
     - Enter the Gungeon
-    - Grand Theft Auto IV
     - Gris
     - Hades II
     - Hollow Knight
     - "Hollow Knight: Silksong"
-    - "NieR: Automata"
+    - Journey
+    - Megabonk
+    - Monster Hunter Rise
+    - "Monster Hunter: World"
+    - Mortal Shell II
+    - Need for Speed Unbound
+    - Path of Exile 2
     - Persona 5 Royal
-    - Red Dead Redemption 2
+    - Portal
+    - Portal 2
+    - Pragmata
+    - RetroArch
+    - Rise of the Tomb Raider
+    - Risk of Rain 2
     - Schedule I
+    - Slay the Spire
+    - Star Wars Battlefront II (2017)
+    - "Star Wars Jedi: Fallen Order"
     - Stardew Valley
+    - Terraria
     - "The Binding of Isaac: Rebirth"
     - "The Witcher 3: Wild Hunt"
     - Tomb Raider (2013)
+    - Unpacking
     - Vampire Survivors
   filter:
     excludeStoreScreenshots: false
@@ -91,13 +113,13 @@ restore:
     - Crimson Desert
     - Dave the Diver
     - "Doom: The Dark Ages"
+    - Dota 2
     - Final Fantasy VII Remake Intergrade
     - Grand Theft Auto IV
     - Grand Theft Auto V Enhanced
     - Hades II
     - Hollow Knight
     - "Hollow Knight: Silksong"
-    - "NieR: Automata"
     - PPSSPP
     - Persona 5 Royal
     - Pragmata
@@ -115,7 +137,10 @@ restore:
     - "The Witcher 3: Wild Hunt"
     - Treasure of Nadia
     - Yuzu
-  toggledPaths: {}
+  toggledPaths:
+    "NieR: Automata":
+      /home/deck/.local/share/Steam/steamapps/compatdata/524220/pfx/drive_c/users/steamuser/Documents/My Games/NieR_Automata/Graphic.ini: false
+      /home/deck/.local/share/Steam/steamapps/compatdata/524220/pfx/drive_c/users/steamuser/Documents/My Games/NieR_Automata/SystemData.dat: false
   toggledRegistry: {}
   sort:
     key: status
@@ -155,6 +180,21 @@ customGames:
     integration: override
     files:
       - "/var/mnt/Samsung1TB/Games [A]/Crimson Desert/game/prefix/pfx/drive_c/users/steamuser/AppData/Local/Pearl Abyss/CD/save/22202/**/*.save"
+    registry: []
+    installDir: []
+    winePrefix: []
+  - name: Resident Evil Requiem
+    integration: override
+    files:
+      - /home/deck/.local/share/Steam/steamapps/compatdata/4273801687/pfx/drive_c/users/steamuser/AppData/Roaming/GSE Saves/3764200/remote/win64_save/
+    registry: []
+    installDir: []
+    winePrefix: []
+  - name: "Black Myth: Wukong"
+    integration: override
+    preferAlias: true
+    files:
+      - "/var/mnt/CookiesSSD/Games [[]G[]]/Black Myth - Wukong/b1/Saved/SaveGames/76561197960285355"
     registry: []
     installDir: []
     winePrefix: []
