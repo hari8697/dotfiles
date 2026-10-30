@@ -7,7 +7,7 @@ Wants=graphical-session.target
 Type=simple
 ExecStart=%h/dev/dotfiles/SteamOS/bluetooth/autoconnect.sh
 Restart=always
-RestartSec=2
+RestartSec=5
 
 [Install]
 WantedBy=default.target

@@ -16,7 +16,7 @@ roots:
     database: ~
 redirects:
   - kind: bidirectional
-    source: /home/deck/.local/share/Steam/steamapps/compatdata/3359882117/pfx/drive_c/users/steamuser/AppData/Roaming/Goldberg UplayEmu Saves/66088/
+    source: /home/deck/.local/share/Steam/steamapps/compatdata/4255491875/pfx/drive_c/users/steamuser/AppData/Roaming/Goldberg UplayEmu Saves/66088/
     target: /ac-black-flag-resynced
   - kind: bidirectional
     source: /home/deck/.local/share/Steam/steamapps/compatdata/2827547241/pfx/drive_c/users/steamuser/AppData/Local/SB/Saved/SaveGames
@@ -25,7 +25,7 @@ redirects:
     source: "/var/mnt/Samsung1TB/Games [A]/Crimson Desert/game/prefix/pfx/drive_c/users/steamuser/AppData/Local/Pearl Abyss/CD/save/22202"
     target: /crimson-desert
   - kind: bidirectional
-    source: /home/deck/.local/share/Steam/steamapps/compatdata/4273801687/pfx/drive_c/users/steamuser/AppData/Roaming/GSE Saves/3764200/remote/win64_save
+    source: /home/deck/.local/share/Steam/steamapps/compatdata/2791089352/pfx/drive_c/users/steamuser/AppData/Roaming/GSE Saves/3764200/remote/win64_save
     target: /re-requiem
   - kind: bidirectional
     source: "/var/mnt/CookiesSSD/Games [G]/Black Myth - Wukong/b1/Saved/SaveGames/76561197960285355/"
@@ -33,6 +33,7 @@ redirects:
 backup:
   path: /home/deck/game-save-backups
   ignoredGames:
+    - ARC Raiders
     - Balatro
     - "Baldur's Gate 3"
     - "Batman: Arkham Asylum"
@@ -43,6 +44,7 @@ backup:
     - Dead Cells
     - Dota 2
     - Enter the Gungeon
+    - Final Fantasy Tactics - The Ivalice Chronicles
     - Gris
     - Hades II
     - Hollow Knight
@@ -53,6 +55,7 @@ backup:
     - "Monster Hunter: World"
     - Mortal Shell II
     - Need for Speed Unbound
+    - "Ori and the Blind Forest: Definitive Edition"
     - Path of Exile 2
     - Persona 5 Royal
     - Portal
@@ -106,7 +109,7 @@ backup:
 restore:
   path: /home/deck/game-save-backups
   ignoredGames:
-    - "Assassin's Creed: Black Flag Resynced"
+    - "Assassin's Creed IV: Black Flag"
     - "Black Myth: Wukong"
     - Cast n Chill
     - "Clair Obscur: Expedition 33"
@@ -114,12 +117,14 @@ restore:
     - Dave the Diver
     - "Doom: The Dark Ages"
     - Dota 2
+    - Elden Ring
     - Final Fantasy VII Remake Intergrade
     - Grand Theft Auto IV
     - Grand Theft Auto V Enhanced
     - Hades II
     - Hollow Knight
     - "Hollow Knight: Silksong"
+    - "NieR: Automata"
     - PPSSPP
     - Persona 5 Royal
     - Pragmata
@@ -132,6 +137,7 @@ restore:
     - "Sekiro: Shadows Die Twice"
     - Split Fiction
     - Stardew Valley
+    - Stellar Blade
     - Terraria
     - The Genesis Order
     - "The Witcher 3: Wild Hunt"
@@ -162,8 +168,8 @@ customGames:
   - name: "Assassin's Creed: Black Flag Resynced"
     integration: override
     files:
-      - "/home/deck/.local/share/Steam/steamapps/compatdata/3359882117/pfx/drive_c/users/steamuser/AppData/Roaming/Goldberg UplayEmu Saves/66088/**/ACBlackFlag[[]AutoSave*.save"
-      - "/home/deck/.local/share/Steam/steamapps/compatdata/3359882117/pfx/drive_c/users/steamuser/AppData/Roaming/Goldberg UplayEmu Saves/66088/**/ACBlackFlag[[]ManualSave*.save"
+      - "/home/deck/.local/share/Steam/steamapps/compatdata/4255491875/pfx/drive_c/users/steamuser/AppData/Roaming/Goldberg UplayEmu Saves/66088/**/ACBlackFlag[[]AutoSave*.save"
+      - "/home/deck/.local/share/Steam/steamapps/compatdata/4255491875/pfx/drive_c/users/steamuser/AppData/Roaming/Goldberg UplayEmu Saves/66088/**/ACBlackFlag[[]ManualSave*.save"
     registry: []
     installDir:
       - "Assassin's Creed: Black Flag Resynced"
@@ -186,7 +192,7 @@ customGames:
   - name: Resident Evil Requiem
     integration: override
     files:
-      - /home/deck/.local/share/Steam/steamapps/compatdata/4273801687/pfx/drive_c/users/steamuser/AppData/Roaming/GSE Saves/3764200/remote/win64_save/
+      - /home/deck/.local/share/Steam/steamapps/compatdata/2791089352/pfx/drive_c/users/steamuser/AppData/Roaming/GSE Saves/3764200/remote/win64_save/
     registry: []
     installDir: []
     winePrefix: []

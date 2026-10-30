@@ -9,6 +9,8 @@ font-feature = +liga
 font-feature = +calt
 
 # Window
+window-width = 160
+window-height = 30
 window-padding-x = 40
 window-padding-y = 40
 background-opacity = 0.89
@@ -24,6 +26,7 @@ scrollback-limit = 10000000
 
 # Shell
 shell-integration = detect
+command = /usr/bin/zsh
 
 # Clipboard
 clipboard-read = allow
